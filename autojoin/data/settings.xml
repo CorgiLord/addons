@@ -1,0 +1,12 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <autodecline>false</autodecline>
+        <blacklist />
+        <mode>whitelist</mode>
+        <whitelist />
+    </global>
+    <inner>
+        <whitelist>Mikawaii,Psylo,Kaliana,Akivatoo,Marrye,Myasasa,Spikedelsol,Annoulita,Raindeath,Khalista,Tafari,Doryl,Valeena,Surphy,Noirot</whitelist>
+    </inner>
+</settings>

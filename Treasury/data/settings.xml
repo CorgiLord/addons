@@ -1,0 +1,17 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <AutoDrop>true</AutoDrop>
+        <AutoStack>true</AutoStack>
+        <Delay>0</Delay>
+        <Drop>Pellucid Stone,Barnacle,Lightning Fewell,Garudite,Pugil Scales,Soil Geode,Smilodon Liver,Leviatite,Quus,Bomb Ash,Relic Maul,Lightng. Crystal,Ruszor Hide,Ulbukan Lobster,Kitron,Lizard Tail,Fish Bones,Manticore Fang,Wind Crystal,Butterpear,Titanite,Kopparnickel Ore,Pebble,Brisk Mask,Coeurl Meat,Warrior&apos;s Mask,Ice Crystal,Gargouille Eye,Ice Fewell,Vanir Gun,Bastore Sardine,Breeze Geode,Water Crystal,Earth Fewell,Gigas Helm,Ram Horn,Flame Geode,Impulse Belt,Wind Fewell,Coeurl Hide,Sliced Sardine,Etoile Bangles,Hare Meat,Adoulinian Kelp,Senroh Sardine,Tin Ore,Abyss Gauntlets,Carbite,Peiste Pellets,Clot Plasma,Pamtam Kelp,Ahriman Lens,Crayfish,Seashell,Dark Crystal,Garglle. Shank,Light Fewell,Repelling Collar,Thunder Geode,Relic Dagger,Mirage Charuqs,Ruthven&apos;s Nail,Iron Ore,Eggplant,Eft Skin,Fenrite,Shivite,Regurg. Wing,Aqua Geode,Spider Web,Lacquer Tree Log,Rusty Bucket,Fire Fewell,Assassin&apos;s Bonnet,Regen,Fire Crystal,Vermeil Bhuj,Shall Shell,Bone Chip,Giant Bird Fthr.,Water Fewell,Cockatrice Meat,Moko Grass,Bat Wing,Ifritite,Dark Fewell,Imp Wing,Dried Mugwort,Gnat Wing,Giant Catfish,Ram Skin,Snow Geode,Shadow Geode,Light Geode,Light Crystal,Smilodon Hide,Taupe Stone,Silver Ore,Monster Helm,Mackerel,Bat Fang,Seedspall Lux,Cockatrice Skin,Ramuite,Bomb Arm,Relic Sword,Coral Fragment,Malboro Vine,Halting Stole,Red Moko Grass,Red Terrapin,Skull Locust,Maestria Mask,Relic Knuckles,Krabkatoa Shell,Earth Crystal</Drop>
+        <Lot />
+        <Pass />
+        <Verbose>false</Verbose>
+    </global>
+    <inner>
+        <Drop>Pellucid Stone,Barnacle,Lightning Fewell,Garudite,Pugil Scales,Soil Geode,Smilodon Liver,Leviatite,Quus,Bomb Ash,Red Terrapin,Lightng. Crystal,Ruszor Hide,Ulbukan Lobster,Kitron,Tin Ore,Fish Bones,Manticore Fang,Wind Crystal,Ram Horn,Malboro Vine,Kopparnickel Ore,Pebble,Red Moko Grass,Maestria Mask,Warrior&apos;s Mask,Ice Crystal,Gargouille Eye,Ice Fewell,Vanir Gun,Coeurl Meat,Etoile Bangles,Earth Fewell,Bastore Sardine,Gigas Helm,Bat Fang,Flame Geode,Impulse Belt,Wind Fewell,Coeurl Hide,Sliced Sardine,Water Crystal,Hare Meat,Crayfish,Relic Maul,Dark Crystal,Relic Sword,Carbite,Peiste Pellets,Lizard Tail,Pamtam Kelp,Clot Plasma,Eft Skin,Seashell,Senroh Sardine,Garglle. Shank,Relic Dagger,Repelling Collar,Thunder Geode,Spider Web,Mirage Charuqs,Ruthven&apos;s Nail,Iron Ore,Eggplant,Light Fewell,Fenrite,Shivite,Regurg. Wing,Rusty Bucket,Aqua Geode,Lacquer Tree Log,Fire Fewell,Assassin&apos;s Bonnet,Fire Crystal,Regen,Shall Shell,Vermeil Bhuj,Bone Chip,Snow Geode,Giant Bird Fthr.,Water Fewell,Cockatrice Meat,Dark Fewell,Gnat Wing,Ifritite,Bat Wing,Imp Wing,Dried Mugwort,Ram Skin,Giant Catfish,Moko Grass,Shadow Geode,Light Geode,Light Crystal,Smilodon Hide,Taupe Stone,Silver Ore,Monster Helm,Mackerel,Seedspall Lux,Ahriman Lens,Cockatrice Skin,Ramuite,Bomb Arm,Adoulinian Kelp,Coral Fragment,Butterpear,Halting Stole,Brisk Mask,Breeze Geode,Skull Locust,Abyss Gauntlets,Relic Knuckles,Krabkatoa Shell,Earth Crystal</Drop>
+        <Lot>Voidfoot: WHM,Handshard: WHM,Torsoshard: WHM,Voidtorso: COR,Voidhand: THF,Voidtorso: WHM,Headshard: WHM,Footshard: COR,Footshard: WHM,Voidfoot: COR,Voidhead: COR,Torsoshard: COR,Voidhead: WHM,Headshard: COR,Handshard: THF</Lot>
+        <Pass>Heroism Crystal,Rusted I. Card,Black. I. Card,Heroism Aggregate,Kindred&apos;s Medal,Beastmen&apos;s Medal</Pass>
+    </inner>
+</settings>

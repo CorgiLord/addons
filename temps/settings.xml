@@ -1,0 +1,10 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <blacklist>primeval brew,mollifier</blacklist>
+        <turbo>false</turbo>
+    </global>
+    <inner>
+        <blacklist>oracle&apos;s drink,primeval brew,mollifier,radialens,sprinter&apos;s drink,healing salve ii,mana mist,mana powder,lucid ether i,lucid ether ii,assassin&apos;s drink,healing salve i,clear salve ii,clear salve i,lucid ether iii</blacklist>
+    </inner>
+</settings>

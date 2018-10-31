@@ -1,0 +1,35 @@
+	send_command('bind NUMPAD1 input /ma "Cure II" <stal>')
+	send_command('bind NUMPAD2 input /ma "Cure III" <stal>')
+	send_command('bind NUMPAD3 input /ma "Cure IV" <stal>')
+	
+	send_command('bind ^NUMPAD1 input /ma "Curaga II" <stal>')
+	send_command('bind ^NUMPAD2 input /ma "Curaga III" <stal>')
+	send_command('bind ^NUMPAD3 input /ma "Curaga IV" <stal>')
+	
+	send_command('bind !NUMPAD1 input /ma "Regen IV" <stal>')
+	send_command('bind !NUMPAD2 input /ja "Martyr" <stal>')
+	send_command('bind !NUMPAD3 input /ja "Devotion" <stal>')
+	
+	send_command('bind NUMPAD4 input /ma "Erase" <stal>')
+	send_command('bind NUMPAD5 input /ma "Paralyna" <stal>')
+	send_command('bind NUMPAD6 input /ma "Silena" <stal>')
+	
+	send_command('bind ^NUMPAD4 input /ma "Stona" <me>')
+	send_command('bind ^NUMPAD5 input /ma "Cursna" <me>')
+	send_command('bind ^NUMPAD6 input /ma "Poisona" <me>')
+	
+	send_command('bind !NUMPAD4 input /ma "" <me>')
+	send_command('bind !NUMPAD5 input /ma "" <me>')
+	send_command('bind !NUMPAD6 input /ma "" <me>')
+	
+	send_command('bind NUMPAD7 input /ma "Stoneskin" <me>')
+	send_command('bind NUMPAD8 input /ma "Protectra V" <me>')
+	send_command('bind NUMPAD9 input /ma "Shellra V" <me>')
+	
+	send_command('bind ^NUMPAD7 input /ja "Divine Caress" <me>')
+	send_command('bind ^NUMPAD8 input /ja "Divine Seal" <me>')
+	send_command('bind ^NUMPAD9 input /ja "Sacrosanctity" <me>')
+	
+	send_command('bind !NUMPAD7 input /ma "Arise" <stal>')
+	send_command('bind !NUMPAD8 input /ma "Raise" <stal>')
+	send_command('bind !NUMPAD9 input /ma "Raise II" <stal>')

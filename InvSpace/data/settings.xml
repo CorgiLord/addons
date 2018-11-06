@@ -58,9 +58,14 @@
     <inner>
         <display>
             <pos>
-                <x>1595</x>
-                <y>547</y>
+                <x>1523.0473632813</x>
+                <y>1015.4359741211</y>
             </pos>
+            <text>
+                <fonts>
+
+                </fonts>
+            </text>
         </display>
     </inner>
 </settings>

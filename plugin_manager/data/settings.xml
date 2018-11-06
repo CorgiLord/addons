@@ -6,6 +6,7 @@
 	<Inner> <!-- This is just an example. You need to replace "YourName" to the left and below with the character name that you want the set of plugins to work for. -->
 	<addon>AuctionHelper</addon>
     <addon>cancel</addon>
+	<addon>Consolebg</addon>
     <addon>capetrader</addon>
     <addon>Debuffed</addon>
     <addon>DistancePlus</addon>
@@ -15,7 +16,6 @@
     <addon>Equipviewer</addon>
     <addon>findAll</addon>
     <addon>GearSwap</addon>
-    <addon>Gearinfo</addon>
     <addon>Homepoints</addon>
     <addon>JobChange</addon>
     <addon>InvSpace</addon>

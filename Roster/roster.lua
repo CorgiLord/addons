@@ -7,28 +7,47 @@ _addon.author = 'original: CorgiLord'
 _addon.version = '1.0'
 _addon.command = 'roster'
 
-function getRoster()
+a = ""
+b = ""
+c = ""
+
+function refresh()
 	local result_table = {};
 		http.request{
-		url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRncLOwAhiOtz8E2VpPdEdmw_LBx5WD7LbaMy-QHpB6SSnI5rXBFaTI2wS9Gp3wZ_nrT5hsWiVbFe7Z/pub?gid=271293840&single=true&output=tsv",
+		url = "http://arcadoid.com/get.php",
 		sink = ltn12.sink.table(result_table),
 	}
     result = table.concat(result_table)
-
-    --_roster = ""
-    --local re = (string.gmatch(result,"ROSTER</td><td>([^<]*)</td>"))
-    --for word in re do
-    --    _roster = word
-    --end
-	--windower.send_command('input /linkshell '.._roster..'')
-    log(result)
+	
+	_roster = ""
+	local ally = string.gmatch(result, "<tr><td>([^<]*)</td>")
+	for word in ally do _roster = word  end
+	
+    a,b,c = string.match(_roster, "(.*)%-(.*)%-(.*)")
+	log('Roster up to date')
+	log(a)
+	coroutine.sleep(.1)
+	log(b)
+	coroutine.sleep(.1)
+	log(c)
+end
+function printToLS()
+	coroutine.sleep(.5)
+	windower.send_command('input /linkshell '..a..'')
+	coroutine.sleep(1.5)
+	windower.send_command('input /linkshell '..b..'')
+	coroutine.sleep(1.5)
+	windower.send_command('input /linkshell '..c..'')
+	coroutine.sleep(1)
 end
 
 windower.register_event('addon command', function(input, ...)
     local cmd = string.lower(input)
 	local args = {...}
 	
-	if cmd == 'go' then
-		getRoster()
+	if cmd == 'get' then
+		refresh()
+	elseif cmd == 'ls' then
+		printToLS()
     end
 end)

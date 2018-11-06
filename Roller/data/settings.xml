@@ -6,7 +6,6 @@
         <showdisplay>true</showdisplay>
     </global>
     <inner>
-        <Roll_ind_1>12</Roll_ind_1>
-        <Roll_ind_2>8</Roll_ind_2>
+        <Roll_ind_2>12</Roll_ind_2>
     </inner>
 </settings>

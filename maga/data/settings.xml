@@ -49,7 +49,7 @@
 
             </default>
         </profiles>
-        <style>melee</style>
-        <taupe>false</taupe>
+        <style>magic</style>
+        <taupe>true</taupe>
     </global>
 </settings>

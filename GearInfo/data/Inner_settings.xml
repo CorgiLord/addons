@@ -65,23 +65,23 @@
         </Geos>
         <display>
             <pos>
-                <x>1444</x>
-                <y>791</y>
+                <x>1260</x>
+                <y>661</y>
             </pos>
         </display>
         <player>
             <rank>1</rank>
             <show_COR_messages>true</show_COR_messages>
-            <show_DW_Stuff>true</show_DW_Stuff>
+            <show_DW_Stuff>false</show_DW_Stuff>
             <show_Defence>false</show_Defence>
             <show_Evasion>false</show_Evasion>
             <show_MA_Stuff>false</show_MA_Stuff>
-            <show_STP>true</show_STP>
-            <show_acc_Stuff>true</show_acc_Stuff>
-            <show_att_Stuff>true</show_att_Stuff>
+            <show_STP>false</show_STP>
+            <show_acc_Stuff>false</show_acc_Stuff>
+            <show_att_Stuff>false</show_att_Stuff>
             <show_dt_Stuff>false</show_dt_Stuff>
-            <show_total_haste>true</show_total_haste>
-            <show_tp_Stuff>true</show_tp_Stuff>
+            <show_total_haste>false</show_total_haste>
+            <show_tp_Stuff>false</show_tp_Stuff>
             <update_gs>true</update_gs>
         </player>
     </global>

@@ -15,8 +15,8 @@ local masks =
 };
 
 -- Event id for cancel/nothing
-local cancel_result = 0x40000000;
-local cancel_result_seq = string.char(0x00, 0x00, 0x00, 0x40);
+--local cancel_result = 0x40000000;
+--local cancel_result_seq = string.char(0x00, 0x00, 0x00, 0x40);
 
 -- Replace the third char (0x02, 0x00, 0xXX, 0x00) with the hex value of the homepoint index located here:
 -- https://github.com/DarkstarProject/darkstar/blob/master/scripts/globals/homepoint.lua

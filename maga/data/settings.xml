@@ -20,8 +20,8 @@
             </flags>
             <padding>3</padding>
             <pos>
-                <x>0</x>
-                <y>0</y>
+                <x>211</x>
+                <y>609</y>
             </pos>
             <text>
                 <alpha>255</alpha>
@@ -43,7 +43,7 @@
             </text>
         </display>
         <fern>true</fern>
-        <pellucid>false</pellucid>
+        <pellucid>true</pellucid>
         <profiles>
             <default>
 

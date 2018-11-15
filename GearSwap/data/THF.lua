@@ -17,27 +17,41 @@ function job_setup()
     state.Buff['Trick Attack'] = buffactive['trick attack'] or false
     state.Buff['Feint'] = buffactive['feint'] or false
     
+	--send_command('clearbinds')
+	
     include('Mote-TreasureHunter')
 
 	send_command('bind NUMPAD1 input /ja "Sneak Attack" <me>')
 	send_command('bind NUMPAD2 input /ja "Trick Attack" <me>')
-	send_command('bind NUMPAD3 input /ja "Conspirator" <me>')
+	send_command('bind NUMPAD3 input /ja "Accomplice" <stpt>')
+	
 	send_command('bind NUMPAD4 input /ws Rudra')
 	send_command('bind NUMPAD5 input /ws "Evisceration" <t>')
 	send_command('bind NUMPAD6 input /ws "Exenterator" <t>')
+	
 	send_command('bind NUMPAD7 input /ws "Shark Bite" <t>')
 	send_command('bind NUMPAD8 input /ws "Mandalic Stab" <t>')
-	send_command('bind NUMPAD9 input /ws "Mercy Stroke" <t>')
+	send_command('bind NUMPAD9 input /ws "Aeolian Edge" <t>')
 	
-	send_command('bind ^NUMPAD1 input /ja "Provoke" <t>')
-	send_command('bind ^NUMPAD2 input /ja "Berserk" <me>')
-	send_command('bind ^NUMPAD3 input /ja "Warcry" <me>')
-	send_command('bind ^NUMPAD4 input /ja "Aggressor" <me>')
-	send_command('bind ^NUMPAD5 input /ws "Evisceration" <t>')
-	send_command('bind ^NUMPAD6 input /ws "Exenterator" <t>')
-	send_command('bind ^NUMPAD7 input /ws "Shark Bite" <t>')
-	send_command('bind ^NUMPAD8 input /ws "Mandalic Stab" <t>')
-	send_command('bind ^NUMPAD9 input /ws "Mercy Stroke" <t>')
+	send_command('bind ^NUMPAD1 input /ja "Feint" <me>')
+	send_command('bind ^NUMPAD2 input /ja "Conspirator" <me>')
+	send_command('bind ^NUMPAD3 input /ja "Bully" <t>')
+	
+	send_command('bind ^NUMPAD4 input /ja "Steal" <t>')
+	send_command('bind ^NUMPAD5 input /ja "Mug" <t>')
+	send_command('bind ^NUMPAD6 input /ja "Despoil" <t>')
+	
+	send_command('bind ^NUMPAD7 input /ja "Larceny" <me>')
+	send_command('bind ^NUMPAD8 input /ja "Hide" <me>')
+	send_command('bind ^NUMPAD9 input /ja "Perfect Dodge" <me>')
+	
+	send_command('bind !NUMPAD1 input /ja "Provoke" <t>')
+	send_command('bind !NUMPAD2 input /ja "Berserk" <me>')
+	send_command('bind !NUMPAD3 input /ja "Warcry" <me>')
+	
+	send_command('bind !NUMPAD4 input /ja "Agressor" <me>')
+	send_command('bind !NUMPAD5 input /ja "Defender" <me>')
+	send_command('bind !NUMPAD6 input /ja "Warcry" <me>')
 	
     -- For th_action_check():
     -- JA IDs for actions that always have TH: Provoke, Animated Flourish
@@ -71,11 +85,11 @@ end
 
 -- Define sets and vars used by this job file.
 function init_gear_sets()
- sets.TreasureHunter = {hands="Plunderer's Armlets +1",feet="Skulk. Poulaines +1",waist="Chaac Belt",}
+	sets.TreasureHunter = {hands="Plunderer's Armlets +1",feet="Skulk. Poulaines +1",waist="Chaac Belt",}
 	moonshade_WS = S{"Rudra's Storm", "Evisceration", "Shark Bite", "Mandalic Stab", "Exenterator", "Savage Blade", "Vorpal Blade", "Requiescat", "Sanguine Blade"}
-   sets.engaged =
-   
-   {
+	
+	sets.engaged =   
+	{
     ammo="Ginsen",
     head="Adhemar Bonnet +1",
     body="Pillager's Vest +3",
@@ -89,11 +103,12 @@ function init_gear_sets()
     left_ring="Epona's Ring",
     right_ring="Hetairoi Ring",
     back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Store TP"+10','Damage taken-5%',}},
-}
+	}
    
-   sets.precast.WS  = {
+   sets.precast.WS  = 
+   {
     ammo="Jukukik Feather",
-    head="Pill. Bonnet +2",
+    head="Pill. Bonnet +3",
     body="Herculean Vest",
     hands="Meg. Gloves +2",
     legs="Plun. Culottes +3",
@@ -103,13 +118,14 @@ function init_gear_sets()
     left_ear="Moonshade Earring",
     right_ear="Sherida Earring",
     left_ring="Regal Ring",
-    right_ring="Karieyh Ring",
+    right_ring="Ilabrat Ring",
     back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Weapon skill damage +10%','Damage taken-5%',}},
-}
+	}
+
 	sets.precast.WS.SA =
 	{
 	ammo="Yetshila +1",
-    head="Pill. Bonnet +2",
+    head="Pill. Bonnet +3",
     body="Plunderer's Vest +3",
     hands="Meg. Gloves +2",
     legs="Plun. Culottes +3",
@@ -119,13 +135,14 @@ function init_gear_sets()
     left_ear="Moonshade Earring",
     right_ear="Sherida Earring",
     left_ring="Regal Ring",
-    right_ring="Karieyh Ring",
+    right_ring="Ilabrat Ring",
     back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Weapon skill damage +10%','Damage taken-5%',}},
 	}
+	
 	sets.precast.WS.TA =
 	{
 	ammo="Yetshila +1",
-    head="Pill. Bonnet +2",
+    head="Pill. Bonnet +3",
     body="Plunderer's Vest +3",
     hands="Meg. Gloves +2",
     legs="Plun. Culottes +3",
@@ -135,9 +152,10 @@ function init_gear_sets()
     left_ear="Moonshade Earring",
     right_ear="Sherida Earring",
     left_ring="Regal Ring",
-    right_ring="Karieyh Ring",
+    right_ring="Ilabrat Ring",
     back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Weapon skill damage +10%','Damage taken-5%',}},
 	}
+	
 end
 
 
@@ -169,19 +187,11 @@ end
 function job_post_midcast(spell, action, spellMap, eventArgs)
     if state.TreasureMode.value ~= 'None' and spell.action_type == 'Ranged Attack' then
         equip(sets.TreasureHunter)
-    end
---	if spell.type == "WeaponSkill" then
---    if spell.element == world.weather_element or spell.element == world.day_element then
---        equip({waist="Hachirin-no-Obi"})
---		add_to_chat(8,'----- Obi Equipped. -----')
---    end
---	end
-	
+    end	
 end
 
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
 function job_aftercast(spell, action, spellMap, eventArgs)
-    -- Weaponskills wipe SATA/Feint.  Turn those state vars off before default gearing is attempted.
     if spell.type == 'WeaponSkill' and not spell.interrupted then
         state.Buff['Sneak Attack'] = false
         state.Buff['Trick Attack'] = false
@@ -191,8 +201,6 @@ end
 
 -- Called after the default aftercast handling is complete.
 function job_post_aftercast(spell, action, spellMap, eventArgs)
-    -- If Feint is active, put that gear set on on top of regular gear.
-    -- This includes overlaying SATA gear.
     check_buff('Feint', eventArgs)
 end
 
@@ -219,7 +227,7 @@ function job_buff_change(buff, gain)
 	if buff:lower()=='sleep' then
         if gain and player.hp > 120 and player.status == "Engaged" then -- Equip Berserker's Torque / frenzy When You Are Asleep
             equip({head="Frenzy Sallet"})
-        elseif not gain then -- Take Berserker's off
+        elseif not gain then
             handle_equipping_gear(player.status)
         end
     end
@@ -259,18 +267,12 @@ end
 function job_handle_equipping_gear(playerStatus, eventArgs)
     -- Check that ranged slot is locked, if necessary
     check_range_lock()
-
-    -- Check for SATA when equipping gear.  If either is active, equip
-    -- that gear specifically, and block equipping default gear.
     check_buff('Sneak Attack', eventArgs)
     check_buff('Trick Attack', eventArgs)
 end
 
 
 function customize_idle_set(idleSet)
-    --if player.hpp < 80 then
-    --    idleSet = set_combine(idleSet, sets.ExtraRegen)
-    --end
     if state.Buff.Doom then
         idleSet = set_combine(idleSet, sets.buff.Doom)
     end
@@ -285,8 +287,8 @@ function customize_melee_set(meleeSet)
     if state.TreasureMode.value == 'Fulltime' then
         meleeSet = set_combine(meleeSet, sets.TreasureHunter)
     end
-	if state.Buff.Sleep and player.hp > 120 and player.status == "Engaged" then -- Equip Berserker's Torque When You Are Asleep
-        meleeSet = set_combine(meleeSet,{neck="Berserker's Torque"})
+	if state.Buff.Sleep and player.hp > 120 and player.status == "Engaged" then
+        meleeSet = set_combine(meleeSet,{head="Frenzied Sallet"})
     end
     if player.hp < 700 then
         meleeSet = set_combine(meleeSet, sets.defense.PDT)
@@ -363,11 +365,10 @@ end
 -- This will only ever be called if TreasureMode is not 'None'.
 -- Category and Param are as specified in the action event packet.
 function th_action_check(category, param)
-    if category == 2 or -- any ranged attack
-        --category == 4 or -- any magic action
-        (category == 3 and param == 30) or -- Aeolian Edge
-        (category == 6 and info.default_ja_ids:contains(param)) or -- Provoke, Animated Flourish
-        (category == 14 and info.default_u_ja_ids:contains(param)) -- Quick/Box/Stutter Step, Desperate/Violent Flourish
+    if category == 2 or 
+        (category == 3 and param == 30) or
+        (category == 6 and info.default_ja_ids:contains(param)) or
+        (category == 14 and info.default_u_ja_ids:contains(param))
         then return true
     end
 end

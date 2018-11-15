@@ -101,7 +101,7 @@ function init_gear_sets()
     right_ear="Loquac. Earring",
     left_ring="Lebeche Ring",
     right_ring="Kishar Ring",
-    back="Perimede Cape",
+    back="Alaunus's Cape",
 }
 		
 	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, { waist= "Siegel Sash"})
@@ -126,7 +126,7 @@ function init_gear_sets()
     right_ear="Mendi. Earring",
     left_ring="Lebeche Ring",
     right_ring="Kishar Ring",
-    back="Perimede Cape",
+    back="Alaunus's Cape",
 })
 
 	sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -235,7 +235,7 @@ function init_gear_sets()
     right_ear="Gifted Earring",
     left_ring="Defending Ring",
     right_ring="Stikini Ring +1",
-    back={ name="Alaunus's Cape", augments={'MND+20','Eva.+20 /Mag. Eva.+20','"Cure" potency +10%',}},
+    back="Alaunus's Cape",
 }
 	sets.midcast.CureSolace.Eco = {
     main={ name="Queller Rod", augments={'MP+80','"Cure" potency +15%','Enmity-5',}},
@@ -745,7 +745,7 @@ function init_gear_sets()
 	main="Queller Rod",
     sub="Genbu\'s Shield",
     ammo="Staunch Tathlum",
-    head="Inyanga Tiara +2",
+    head="Inyanga Jubbah +2",
     body="Theo. Briault +1",
     hands="Inyanga Dastanas +2",
     legs="Assid. Pants +1",

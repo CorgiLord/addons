@@ -1,0 +1,30 @@
+pause 1
+input /ja "immanence" <me>
+pause 1
+input /ma "aero" <t>
+pause 4
+input /ja "immanence" <me>
+pause 1
+input /ma "stone" <t>
+pause 4
+input /ja "immanence" <me>
+pause 1
+input /ma "aero" <t>
+pause 4
+input /ja "immanence" <me>
+pause 1
+input /ma "stone" <t>
+pause 4
+input /ja "immanence" <me>
+pause 1
+input /ma "aero" <t>
+pause 4
+input /ja "immanence" <me>
+pause 1
+input /ma "stone" <t>
+pause 4
+input /ja "immanence" <me>
+pause 1
+input /ma "aero" <t>
+
+

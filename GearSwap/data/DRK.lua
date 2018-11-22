@@ -185,7 +185,7 @@ function get_sets()
     hands={ name="Argosy Mufflers +1", augments={'STR+20','"Dbl.Atk."+3','Haste+3%',}},
     legs={ name="Odyssean Cuisses", augments={'"Store TP"+6','STR+5','Accuracy+7',}},
     feet={ name="Argosy Sollerets +1", augments={'HP+65','"Dbl.Atk."+3','"Store TP"+5',}},
-    neck="Marked Gorget",
+    neck="Abyssal Beads +2",
     waist="Ioskeha Belt",
     left_ear="Telos Earring",
     right_ear="Brutal Earring",

@@ -9,7 +9,7 @@ local http = require("socket.http");
 
 local default_config = 
 {
-	position = { 1150, 750 },
+	position = { 1350, 960 },
 	color = 0xFFFFFFFF,
 	background_color = 0x140000000,
 	size = 32

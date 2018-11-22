@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Apocalypse", augments={'DMG:+7',}},
+    sub="Utu Grip",
+    ammo="Knobkierrie",
+    head="Flam. Zucchetto +2",
+    body={ name="Argosy Hauberk +1", augments={'STR+12','Attack+20','"Store TP"+6',}},
+    hands="Flam. Manopolas +2",
+    legs={ name="Odyssean Cuisses", augments={'"Mag.Atk.Bns."+15','"Dbl.Atk."+3','VIT+4',}},
+    feet="Flam. Gambieras +1",
+    neck="Houyi's Gorget",
+    waist="Ioskeha Belt",
+    left_ear="Telos Earring",
+    right_ear="Brutal Earring",
+    left_ring="Hetairoi Ring",
+    right_ring="Flamma Ring",
+    back={ name="Ankou's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

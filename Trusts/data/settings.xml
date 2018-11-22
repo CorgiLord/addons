@@ -25,6 +25,13 @@
                 <4>Selh&apos;teus</4>
                 <5>August</5>
             </ambu>
+            <beauce>
+                <1>Yoran-Oran (UC)</1>
+                <2>Ulmia</2>
+                <3>Qultada</3>
+                <4>Arciela II</4>
+                <5>Koru-Moru</5>
+            </beauce>
             <capa>
                 <1>Ulmia</1>
                 <2>Koru-Moru</2>
@@ -88,6 +95,13 @@
                 <4>Zeid II</4>
                 <5>Ulmia</5>
             </eschazitah>
+            <exp>
+                <1>Yoran-Oran (UC)</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Zeid</4>
+                <5>Ulmia</5>
+            </exp>
             <glavoid>
                 <1>Yoran-Oran (UC)</1>
                 <2>Koru-Moru</2>
@@ -95,6 +109,19 @@
                 <4>Joachim</4>
                 <5>AAEV</5>
             </glavoid>
+            <grenade>
+                <1>Yoran-Oran (UC)</1>
+                <2>Koru-Moru</2>
+                <3>Qultada</3>
+                <4>Arciela II</4>
+                <5>AAEV</5>
+            </grenade>
+            <levelup>
+                <1>Yoran-Oran (UC)</1>
+                <2>Koru-Moru</2>
+                <3>AAGK</3>
+                <4>Selh&apos;teus</4>
+            </levelup>
             <macro>
                 <1>Yoran-Oran (UC)</1>
                 <2>Koru-Moru</2>

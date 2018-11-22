@@ -53,11 +53,19 @@
             </text>
         </display>
     </global>
+    <batmom>
+        <display>
+            <pos>
+                <x>1525</x>
+                <y>270</y>
+            </pos>
+        </display>
+    </batmom>
     <inner>
         <display>
             <pos>
-                <x>1745.5936279297</x>
-                <y>177.19100952148</y>
+                <x>1559.4403076172</x>
+                <y>250.87890625</y>
             </pos>
         </display>
     </inner>
